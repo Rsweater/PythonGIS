@@ -18,6 +18,6 @@ Blogs和知乎专栏会同步更新，用途不同。GitHub仅仅托管代码（
 
 
 
-Blogs和专栏同步更新zhezhongshi
-> 个人Blogs：https://bw_chen1223.xyz  
+Blogs和专栏同步更新
+> 个人Blogs：https://bwchen1223.xyz  
 > 知乎专栏：https://zhuanlan.zhihu.com/c_1228354257247985664
