@@ -3,7 +3,7 @@
 Python在GIS、RS中的实践
 
 **个人情况以及项目背景：**
-笔者目前是一名学地理的大二学生，平时会用python（很菜），发现Python在地理方面有很多的相关的library，就比如GIS相关的有arcpy、GDAL、geopandas；科学计算相关的scipy；RS相关的Spectral、sentinelast等等很多。虽然每个库都有文档，可是能看文档就能灵活的用Python来做相关研究，这对于大多数学生、甚至是老师应该并不是一件容易的事情。这个项目尽量以大家在遥感课、计量地理学等等相关课上机实习、老师讲的顺序，用Python实现一个个小功能。
+目前是一名学地理的大二学生，平时会点Python，发现Python在地理方面有很多的相关的library，就比如GIS相关的有arcpy、GDAL、geopandas；科学计算相关的scipy；RS相关的Spectral、sentinelast等等很多。虽然每个库都有文档，但是能看文档就能灵活的用Python来做相关研究，这对于大多数 department of geography 的学生来说应该并不是一件容易的事。这个项目尽量以大家在遥感课、计量地理学等等相关课上机实习、老师讲的顺序，用Python实现一个个小功能。希望这个项目能够给地理系的学生带来帮助第一次做项目肯定会有
 
 **项目简介：**
 因为这个code library只能利用课余完善，时间原因根据我专业学习的情况来安排整体框架，接下来一段时间先写RS实习的内容、后续会写计量地理学、地理信息系统。如果还有其他的或者说大家有什么想了解的可以发邮件，我的博客里面有邮箱链接。
@@ -16,7 +16,7 @@ Blogs和知乎专栏会同步更新，用途不同。GitHub仅仅托管代码（
 
 ## RS目录
 
-1. RGB合成
+1. [RGB合成](https://github.com/Rsweater/PythonGIS/tree/master/Python_GDAL/01_RGB%E5%90%88%E6%88%90)
 
 Blogs和专栏同步更新
 > 个人Blogs：<https://bwchen1223.xyz>  
