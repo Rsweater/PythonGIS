@@ -3,7 +3,7 @@ time: 2020-03-28
 coder: 一线毛衣
 purpose：To familiarize yourself with the gdal library.
 documents:
-知乎专栏：
+知乎专栏：https://zhuanlan.zhihu.com/c_1228354257247985664
 个人博客：https://bwchen1223.xyz
 
 reference:
@@ -14,7 +14,6 @@ Color Infrared (vegetation, 543): 红外彩色，又称标准假彩色。地物�
 
 """
 
-import os
 import sys
 import cv2
 from osgeo import gdal
@@ -50,22 +49,20 @@ def show_img():
     cv2.imshow("image", img)
 
     # 等待键盘输入，有输入才继续执行
-    print("界面内按任意键退出！")
     cv2.waitKey()
+    print("按任意键退出！")
 
     # 销毁窗口，释放资源
     cv2.destroyAllWindows()
 
-    print("done!")
-    sys.exit(0)
-
 
 def main():
-    # 1. 定义默认路径并导入文件
-    os.chdir(r'F:\PythonProjection\PythonGIS\Python_GDAL\LC81660522019274LGN00')
-    bandfile_1 = 'LC08_L1TP_166052_20191001_20191001_01_RT_B4.TIF'
-    bandfile_2 = 'LC08_L1TP_166052_20191001_20191001_01_RT_B3.TIF'
-    bandfile_3 = 'LC08_L1TP_166052_20191001_20191001_01_RT_B2.TIF'
+    # 1. 导入文件
+    print("{:-^13}".format('run'))
+    print("请依次输入RGB通道对应波段图像对应路径：")
+    bandfile_1 = input("R:")
+    bandfile_2 = input("G:")
+    bandfile_3 = input("B:")
     bandfile = [bandfile_1, bandfile_2, bandfile_3]
 
     # 2. 读取dataset并获取band值
@@ -89,7 +86,7 @@ def main():
 
     # 5. 后续处理
     output_dataset.FlushCache()  # 刷新缓存，确保数据写入硬盘
-    # output_dataset.BuildOverviews('average', [2, 4, 8, 16, 32])  # 建立快速显示金字塔
+    output_dataset.BuildOverviews('average', [2, 4, 8, 16, 32])  # 建立快速显示金字塔
 
     # 6. Add_展示
     control = input('请输入 "Y"or"N" 选择是否直接展示结果：')
