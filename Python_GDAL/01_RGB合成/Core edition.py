@@ -22,11 +22,6 @@ from osgeo import gdal
 def get_dataset_band(bandfile):
     """获取dataset并获取dataset的一个band"""
     input_dataset = gdal.Open(bandfile)
-    if input_dataset is None:
-        print('could not open')
-        # sys.exit(0)    无错误退出
-        # sys.exit(1)    有错误退出
-        sys.exit(1)
     input_band = input_dataset.GetRasterBand(1)
 
     return [input_dataset, input_band]
