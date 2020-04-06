@@ -15,7 +15,6 @@ Color Infrared (vegetation, 543): 红外彩色，又称标准假彩色。地物�
 """
 
 import os
-import sys
 from osgeo import gdal
 
 
