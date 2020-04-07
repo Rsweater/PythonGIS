@@ -3,8 +3,8 @@ time: 2020-03-28
 coder: 一线毛衣
 purpose：To familiarize yourself with the gdal library.
 documents:
-知乎专栏：https://zhuanlan.zhihu.com/c_1228354257247985664
-个人博客：https://bwchen1223.xyz
+知乎专栏：https://zhuanlan.zhihu.com/p/126130709/
+个人博客：https://bwchen1223.xyz/2020/03/29/01-multiband_image_synthesis/
 
 reference:
 landsat 8常用合成：
