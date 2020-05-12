@@ -16,6 +16,9 @@ Blogs和知乎专栏会同步更新。GitHub仅仅托管代码、Blogs记录一�
 
 > PS：用到的数据全部来源于 [地理空间数据云](http://www.gscloud.cn/)、[全国地理信息资源目录服务系统](http://www.webmap.cn/main.do?method=index)。  
 
+## QG目录
+
+1. [经典统计分析1](https://github.com/Rsweater/PythonGIS/tree/master/QG/QG%E5%AE%9E%E9%AA%8C2%E2%80%94%E2%80%94Python%E5%AE%9E%E7%8E%B0%E7%BB%8F%E5%85%B8%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%901)
+
 Blogs和专栏同步更新
-> 个人Blogs：<https://bwchen1223.xyz>  
 > 知乎专栏：<https://zhuanlan.zhihu.com/Rsweater-Python>
