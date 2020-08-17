@@ -12,7 +12,7 @@ Blogs和知乎专栏会同步更新。GitHub仅仅托管代码、Blogs记录一�
 
 ## RS目录
 
-1. [RGB合成](https://github.com/Rsweater/PythonGIS/tree/master/Python_GDAL/01_RGB%E5%90%88%E6%88%90)
+1. [RGB合成](https://github.com/Rsweater/PythonGIS/tree/master/RS/01_RGB%E5%90%88%E6%88%90)
 
 > PS：用到的数据全部来源于 [地理空间数据云](http://www.gscloud.cn/)、[全国地理信息资源目录服务系统](http://www.webmap.cn/main.do?method=index)。  
 
